@@ -65,7 +65,6 @@ public class LinkedList {
         }
     }
 
-
     public void deleteNodes(){
         Node node = head;
         if (node == null || node.next == null)

@@ -1,6 +1,5 @@
 package linked_lists.customer;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Demo {
@@ -24,9 +23,8 @@ public class Demo {
     }
 
     private static void printList(LinkedList<String > linkedList){
-        Iterator<String> iterator = linkedList.iterator();
-        while (iterator.hasNext()){
-            System.out.println("Now visiting: " + iterator.next());
+        for (String s : linkedList) {
+            System.out.println("Now visiting: " + s);
         }
 
         System.out.println("====================================");

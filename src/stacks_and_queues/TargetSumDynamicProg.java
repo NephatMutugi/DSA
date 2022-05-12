@@ -3,7 +3,7 @@ package stacks_and_queues;
 import java.util.Arrays;
 
 public class TargetSumDynamicProg {
-    public int findTargetSumWays(int[] nums, int S) {
+    public int findTargetSum(int[] nums, int S) {
         int total = Arrays.stream(nums).sum();
         int[][] dp = new int[nums.length][2 * total + 1];
         dp[0][nums[0] + total] = 1;

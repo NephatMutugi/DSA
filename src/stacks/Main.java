@@ -1,4 +1,4 @@
-package stacks_and_queues;
+package stacks;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +12,14 @@ public class Main {
 
         int dynamicResult = targetSumDynamicProg.findTargetSum(arr, 3);
         System.out.println("DYNAMIC PROGRAMMING RESULT: " + dynamicResult);
+
+        System.out.println("****************************");
+        System.out.println("****************************");
+        System.out.println();
+        System.out.println();
+
+        InOrderTransversal transversal = new InOrderTransversal();
+
 
     }
 }

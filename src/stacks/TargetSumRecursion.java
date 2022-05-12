@@ -1,4 +1,4 @@
-package stacks_and_queues;
+package stacks;
 
 import java.util.Arrays;
 

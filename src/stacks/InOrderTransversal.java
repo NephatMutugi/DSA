@@ -1,12 +1,12 @@
-package stacks_and_queues;
+package stacks;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
 public class InOrderTransversal {
-    public List<Integer> inOrderTransversal(stacks_and_queues.TreeNode root){
-        Stack<stacks_and_queues.TreeNode> stack = new Stack<>();
+    public List<Integer> inOrderTransversal(TreeNode root){
+        Stack<stacks.TreeNode> stack = new Stack<>();
         List<Integer> outputArr = new ArrayList<>();
 
         if (root == null){

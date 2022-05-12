@@ -1,4 +1,4 @@
-package linked_lists.customer;
+package data_structures.linked_lists.customer;
 
 public class Customer {
 

@@ -1,4 +1,4 @@
-package stacks;
+package data_structures.stacks;
 
 public class TreeNode {
     int val;

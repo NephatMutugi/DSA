@@ -1,4 +1,4 @@
-package arrays;
+package data_structures.arrays;
 
 public class LongestIncreasingSubsequence {
     public static void main(String[] args) {

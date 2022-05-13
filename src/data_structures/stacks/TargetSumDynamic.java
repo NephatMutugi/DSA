@@ -2,7 +2,7 @@ package data_structures.stacks;
 
 import java.util.Arrays;
 
-public class TargetSumDynamicProg {
+public class TargetSumDynamic {
     public int findTargetSum(int[] nums, int S) {
         int total = Arrays.stream(nums).sum();
         int[][] dp = new int[nums.length][2 * total + 1];

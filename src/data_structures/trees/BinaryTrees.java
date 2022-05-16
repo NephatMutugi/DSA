@@ -33,9 +33,9 @@ public class BinaryTrees {
         TreeNode currentNode = new TreeNode(currentVal);
         int midPoint  = treeMap.get(currentVal);
 
-
         currentNode.right = dfs(midPoint + 1, end);
         currentNode.left = dfs(start, midPoint -1);
+        System.out.print(currentNode.val + " ");
 
 
         return currentNode;

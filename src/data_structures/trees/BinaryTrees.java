@@ -19,9 +19,7 @@ public class BinaryTrees {
             treeMap.put(inOrder[i] , i);
         }
 
-        TreeNode rootNode = dfs(0, n - 1);
-
-        return rootNode;
+        return dfs(0, n - 1);
     }
 
 

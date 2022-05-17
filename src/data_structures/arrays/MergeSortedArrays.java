@@ -7,7 +7,6 @@ public class MergeSortedArrays {
         int[] sortedArr2 = {5, 15, 25, 30, 35, 45, 50, 55};
 
         mergeArray(sortedArr1, sortedArr2);
-
     }
 
     private static void mergeArray(int [] sortedArr1, int [] sortedArr2){

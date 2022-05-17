@@ -5,12 +5,10 @@ import java.util.Map;
 
 public class BinaryTrees {
 
-    private int [] inOrder;
     private int [] postOrder;
     Map<Integer, Integer> treeMap = new HashMap<>();
     int index;
     public TreeNode buildTree (int [] inOrder, int [] postOrder){
-        this.inOrder = inOrder;
         this.postOrder = postOrder;
         int n = inOrder.length;
         index = n - 1;

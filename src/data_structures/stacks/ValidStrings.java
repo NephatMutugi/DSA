@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class ValidStrings {
     public static void main(String[] args) {
-        String test = "";
+        String test = "{([[{()}]])}";
         validString(test);
     }
 

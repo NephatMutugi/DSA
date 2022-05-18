@@ -3,7 +3,7 @@ package dynamic_programming;
 public class LIS {
 
     public static void main(String[] args) {
-        int [] myArr = {1, 20, 10, 5, 9, 8, 3, 5, 7, 18};
+        int [] myArr = {10, 22, 9, 33, 21, 50, 41, 60, 80};
         System.out.println("LIS: " + findLIS(myArr));
     }
 
@@ -18,12 +18,17 @@ public class LIS {
         countLIS[arrayLen - 1] = 1;
         int maxLIS = 1;
 
+        // Sliding Window
+
         for (int i = arrayLen - 2; i >= 0; i--){
             int maxRemainingLIS = 0;
             int currentVal = myArr[i];
             for (int j = i+1; j < arrayLen; j++){
                 if (currentVal < myArr[j]){
                     maxRemainingLIS = Math.max(maxRemainingLIS, countLIS[j]);
+
+                    System.out.println("currentVal----------------------------"+currentVal);
+                    System.out.println("j----------------------------"+myArr[j]);
                 }
             }
             countLIS[i] = maxRemainingLIS + 1;

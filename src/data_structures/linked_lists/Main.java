@@ -16,6 +16,7 @@ public class Main {
         list.insert(60);
         list.insert(70);
 
+
         // Print Original List
         System.out.print("ORIGINAL LIST:\t\t\t");
         list.show();

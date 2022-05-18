@@ -16,7 +16,6 @@ public class ShiftZeros
     {
         int count = myArr.length - 1;
 
-
         for (int i = count; i >= 0; i--) {
             if (myArr[i] != 0) {
                 myArr[count] = myArr[i];

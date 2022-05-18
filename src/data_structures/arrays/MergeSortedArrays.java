@@ -6,6 +6,8 @@ public class MergeSortedArrays {
         int[] sortedArr1 = {10, 20, 30, 40, 50, 60};
         int[] sortedArr2 = {5, 15, 25, 30, 35, 45, 50, 55};
 
+        //{5,10,15,20,25,30,30,35,40,45,50,55,60}
+
         mergeArray(sortedArr1, sortedArr2);
     }
 

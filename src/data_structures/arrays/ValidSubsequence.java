@@ -3,7 +3,7 @@ package data_structures.arrays;
 public class ValidSubsequence {
     public static void main(String[] args) {
         int [] bigArr = {1, 2, 3, 4};
-        int [] smallArr = {1, 3, 4};
+        int [] smallArr = {1, 3, 5};
 
         System.out.println(isValidSubSequence(bigArr, smallArr));
     }
@@ -15,7 +15,6 @@ public class ValidSubsequence {
             }
             i++;
         }
-
         return j == subArr.length;
     }
 }

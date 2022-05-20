@@ -5,7 +5,7 @@ import java.util.List;
 
 public class RestoreIPAddresses {
     static List<String> myIpAddresses = new LinkedList<>();
-    public static List<String> restoreIpAddresses(String s) {
+    public List<String> restoreIpAddresses(String s) {
         if (s.length() == 0) return myIpAddresses;
 
         dfs(new StringBuilder(), s, 4);
@@ -13,7 +13,7 @@ public class RestoreIPAddresses {
         return myIpAddresses;
     }
 
-    private static void dfs(StringBuilder str, String s, int sections){
+    private void dfs(StringBuilder str, String s, int sections){
         int n = s.length();
         if (n == 0 && sections == 0){
             myIpAddresses.add(str.substring(0,str.length()-1));
@@ -47,14 +47,4 @@ public class RestoreIPAddresses {
         }
     }
 
-    public static void main(String[] args) {
-        String ipAddress = "25525511135";
-        List<?> myList = restoreIpAddresses(ipAddress);
-
-        for (int i = 0; i < myList.size(); i++) {
-            System.out.println("IP " + (i +1) + " -> " + myList.get(i));
-        }
-
-        System.out.println();
-    }
 }

@@ -9,6 +9,7 @@ public class ValidSubsequence {
 
     }
     public static boolean isValidSubSequence(int [] bigArr, int [] subArr){
+
         int i = 0, j = 0;
         while (i < bigArr.length && j < subArr.length){
             if (subArr[j] == bigArr[i]){

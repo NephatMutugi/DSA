@@ -10,8 +10,8 @@ public class ValidPalindrome {
              }
          }
 
-         stringBuilder = new StringBuilder(stringBuilder.toString().toLowerCase());
-         String fixedString = stringBuilder.toString();
+         stringBuilder = new StringBuilder(stringBuilder.toString());
+         String fixedString = stringBuilder.toString().toLowerCase();
          System.out.println("String to test -> " + fixedString);
 
          int pointer1 = 0;
@@ -28,4 +28,14 @@ public class ValidPalindrome {
          }
          return true;
      }
+
+//     public boolean isValidReverse(String myString){
+//         StringBuilder buildString = new StringBuilder();
+//         for (int i = myString.length() - 1; i >= 0; i--){
+//             buildString.append(myString.charAt(i));
+//         }
+//         String result = buildString.toString().toLowerCase();
+//         myString.toLowerCase();
+//         return myString.equals(result);
+//     }
 }

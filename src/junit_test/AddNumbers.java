@@ -1,7 +1,7 @@
 package junit_test;
 
 public class AddNumbers {
-   int myCalc(int [] nums){
+   public int myCalc(int [] nums){
        int sum = 0;
 
        for (int a : nums)

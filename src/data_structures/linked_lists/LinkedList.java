@@ -2,6 +2,7 @@ package data_structures.linked_lists;
 
 import java.util.HashSet;
 
+/** {@code @Author} Nephat Muchiri */
 public class LinkedList {
     static Node head = null;
 

@@ -3,6 +3,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+/**@Author Nephat Muchiri
+ * AVAILABLE ANNOTATIONS:
+ * {@code @Before} -> Guarantees that the thing will be running before every test:
+ * e.g. Establish a database connection
+ * {@code @After} -> Is run after every test
+ * {@code @BeforeClass} -> These are class level methods and should be static. Runs before all tests.
+ * {@code @AfterClass} -> Runs after all the tests*/
 public class MyAddNumbersTest {
 
     @Test
@@ -20,3 +27,4 @@ public class MyAddNumbersTest {
 // AssertNotNull
 // AssertNull
 // Compare Arrays: assertArrayEquals(arr1, arr2)
+

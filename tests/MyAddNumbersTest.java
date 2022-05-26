@@ -13,3 +13,7 @@ public class MyAddNumbersTest {
         System.out.println(result);
     }
 }
+
+// AssertEquals checks whether the LHS and RHS are equal.
+// Assert True is used to check whether a condition is true
+// Also available: AssertFalse

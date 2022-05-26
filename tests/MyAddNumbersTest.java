@@ -17,3 +17,6 @@ public class MyAddNumbersTest {
 // AssertEquals checks whether the LHS and RHS are equal.
 // Assert True is used to check whether a condition is true
 // Also available: AssertFalse
+// AssertNotNull
+// AssertNull
+// Compare Arrays: assertArrayEquals(arr1, arr2)

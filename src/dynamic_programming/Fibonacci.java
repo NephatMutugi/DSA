@@ -5,8 +5,8 @@ import java.util.Scanner;
 //TODO: UPDATE FIBONACCI FUNCTION
 public class Fibonacci {
 
-    static int fibMemoization(int n){
-        int [] cache = new int[n +1];
+    static long fibMemoization(int n){
+        long [] cache = new long[n +1];
         cache[0] = 0;
         cache[1] = 1;
         for (int i = 2; i <= n; i++){
@@ -43,6 +43,6 @@ public class Fibonacci {
         int fib = input.nextInt();
         System.out.println("Fibonacci value is: " + findFib(fib));
         System.out.println("Memoized: " + fibMemoization(fib));
-        System.out.println("Recursion: " + fibRecur(fib));
+        //System.out.println("Recursion: " + fibRecur(fib));
     }
 }
